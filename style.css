@@ -1,0 +1,361 @@
+.heading
+{
+   padding: 13px 42px;
+   border: 2px solid green;
+   color: #fff;
+   border-top-left-radius: 60px;
+   background:black;
+   border-radius: 60px;
+   font-size: 50px;
+   font-family:jokerman;
+   animation:t-rex  10s infinite;
+}
+
+@keyframes t-rex{
+  10%{
+    color: lightgreen;
+  }
+  20%{
+    color: lightblue;
+  }
+  60%{
+    color: saddlebrown;
+  }
+  100%{
+    color: lightgreen;
+  }
+}
+.ball
+{
+  margin: 40px;
+  height: 20px;
+  width:20px;
+  background:#fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  animation: color 5s infinite;
+}
+
+@keyframes color{
+  0%{
+    background: green;
+    width: 20px;
+    border: blueviolet;
+  }
+  10%{
+    background: blue;
+    width: 400px;
+    border: green;
+  }
+  50%{
+    background: red;
+    width: 200px;
+    border: red;
+  }
+  60%{
+    background: blueviolet;
+    width: 100px;
+    border: black;
+  }
+  100%{
+    background: greenyellow;
+    width:50px;
+    border: darkblue;
+  }
+}
+.ball-1
+{
+  margin: 40px;
+  height: 20px;
+  width:20px;
+  background:#fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  animation: color 10s infinite
+}
+.list
+{
+  background-color: #191919;
+  padding: 30px 43px;
+  width: 200px;
+}
+.btn
+{
+  text-decoration: none;
+  padding: 14px 42px;
+  font-family: jokerman;
+  color: #fff;
+  transition: 0.25s;
+}
+.btn:hover
+{
+  background-color: lightgreen;
+  color: darkgreen;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+.btn-2
+{
+  text-decoration: none;
+  padding: 14px 42px;
+  font-family: jokerman;
+  color: #fff;
+  transition: 0.25s;
+}
+.btn-2:hover
+{
+  background-color: lightgreen;
+  color: darkgreen;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+.box
+{
+    width: 300px;
+    padding: 40px;
+    left: 20%;
+    margin:0 auto;
+    border: 2px solid green;
+    border-radius: 30px;
+    background: #191919;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.face
+{
+  margin: 0 auto;
+  height: 20px;
+  width:20px;
+  background:grey;
+ border-radius: 10px;
+  border: 1px solid #fff;
+}
+.line
+{
+    margin: 0 auto;
+    top: 50%;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #fff;
+    background:grey;
+    border-radius:20px ;
+}
+.box input[type = "text"], .box input[type = "email"], .box input[type = "month"]
+{
+  padding: 13px 42px;
+  background: transparent;
+  border:3px solid #fff;
+  border-radius: 30px;
+}
+.box input[type = "text"]:focus, .box input[type = "email"]:focus, .box input[type = "month"]:focus
+{
+ 
+  background: #fff;
+}
+.box input[type = "submit"]
+{
+    border: 0;
+    background: none;
+    
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover
+{
+    color:gray;
+    border-top-color:yellow ;
+    border-left-color: green;
+    border-right-color: blue;
+    border-bottom-color:red ;
+}
+.demo
+{
+  
+  padding: 13px 42px 13px 42px;
+  color: #fff;
+  font-family:jokerman;
+  margin:0 auto;
+  text-align: right;
+  justify-content: RIGHT;
+  background: #191919;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 200px;
+  left: 50%;
+  top: 50%;
+  transition: 0.25s;
+}
+.demo:hover
+{
+  color: grey;
+}
+.demo img
+{
+  border: 2px solid green;
+  border-radius: 24px;
+}
+.demo1
+{
+  
+  padding: 13px 42px 13px 42px;
+  color: #fff;
+  font-family: jokerman;
+  margin:0 auto;
+  text-align: left;
+  justify-content: left;
+  background: #191919;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 5px 10x rgb(black, green, blue);
+  width: 200px;
+  left: 50%;
+  top: 50%;
+  transition: 0.25s;
+}
+.demo1:hover
+{
+  color: grey;
+  
+}
+.demo1 img
+{
+  border: 2px solid green;
+  border-radius:24px ;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.dem1 img:hover
+{
+  border-color: black;
+}
+.item
+{
+  border: 2px solid green ;
+  border-radius: 24px;
+  text-align: center;
+  justify-content: center;
+  height: 700px;
+  width: 500px;
+}
+.item ul{
+  display: flex;
+  margin: 40px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+ul li a .fa{
+  position: relative;
+  color: #262626;
+  transition:  .5s;
+  z-index: 3;
+}
+ul li a:hover .fa{
+  color: #fff;
+  transform: rotateY(360deg);
+}
+ul li a:before{
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #f00;
+  transition:  .5s;
+  z-index: 2;
+}
+ul li a:hover::before{
+  top: 0;
+}
+ul li:nth-child(1) a:before{
+  background:darkblue;
+}
+ul li:nth-child(2) a:before{
+  background:red;
+}
+ul li:nth-child(3) a:before{
+  background-color:red;
+}
+ul li:nth-child(4) a:before{
+  background: red;
+}
+.face1
+{
+  color: #fff;
+  margin: 200px;
+  top: 60px;
+  bottom: 100px;
+  padding: 2px 3px;
+  border-radius: 5px;
+  background:transparent;
+  transition: 0.25s;
+  font-family: jokerman;
+}
+.face1:hover
+{
+  color: grey;
+  background: #fff;
+}
+.face2
+{
+  color: #fff;
+  margin: 200px;
+  top: 60px;
+  bottom: 100px;
+  padding: 2px 3px;
+  border-radius: 5px;
+  background:transparent;
+  transition: 0.25s;
+  font-family: jokerman;
+}
+.face2:hover
+{
+  color: grey;
+  background: #fff;
+}
+.demo-3
+{
+  padding: 13px 42px 13px 42px;
+  color: #fff;
+  font-family:jokerman;
+  margin:0 auto;
+  text-align: center;
+  justify-content: center;
+  background: #191919;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 200px;
+  left: 50%;
+  top: 50%;
+
+}
